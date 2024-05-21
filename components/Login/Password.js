@@ -29,27 +29,43 @@ const Password = ({route,navigation}) => {
     console.log('Creating account with email:', email);
     console.log('Password:', password);
 
-    fetch('http://192.168.1.11:3001/users/${email}', {
-      method: 'POST',
+     // Fetch user data using email
+  fetch(`http://192.168.1.11:3001/users/${email}`,{
+    method: 'GET'
+  })
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Failed to fetch user data');
+    }
+    return response.json();
+  })
+  .then(userData => {
+    // Append password to user data
+    userData.password = password;
+
+    // Update user data with the appended password
+    return fetch(`http://192.168.1.11:3001/users/${email}`, {
+      method: 'PUT', // Use PUT method for update
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ email, password }),
-    })
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Failed to create account');
-        }
-        return response.json();
-      })
-      .then(data => {
-        console.log('Account created successfully:', data);
-        // Optionally, you can navigate to a different screen upon successful account creation
-      })
-      .catch(error => {
-        console.error('Error creating account:', error);
-        Alert.alert('Error', 'Failed to create account. Please try again.');
-      });
+      body: JSON.stringify(userData), // Send updated user data
+    });
+  })
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Failed to update user data');
+    }
+    return response.json();
+  })
+  .then(data => {
+    console.log('Account created successfully:', data);
+    // Optionally, you can navigate to a different screen upon successful account creation
+  })
+  .catch(error => {
+    console.error('Error creating account:', error);
+    Alert.alert('Error', 'Failed to create account. Please try again.');
+  });
   };
 
   return (
@@ -73,7 +89,7 @@ const Password = ({route,navigation}) => {
           />
           <TouchableOpacity
             style={styles.createButton}
-            onPress={() => navigation.navigate('MainNav')}>
+            onPress={handleCreateAccount}>
             <Text style={styles.createButtonText}>Create Account</Text>
           </TouchableOpacity>
         </View>

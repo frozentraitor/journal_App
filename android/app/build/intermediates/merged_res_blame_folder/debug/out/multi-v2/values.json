@@ -4,6 +4,23 @@
             "outputFile": "com.awesomeproject.app-mergeDebugResources-34:/values/values.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\bhanu\\OneDrive\\Desktop\\Journal\\journal_App\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "51",
+                        "endOffsets": "63"
+                    },
+                    "to": {
+                        "startLines": "1886",
+                        "startColumns": "4",
+                        "startOffsets": "125963",
+                        "endColumns": "51",
+                        "endOffsets": "126010"
+                    }
+                },
+                {
                     "source": "C:\\Users\\bhanu\\.gradle\\caches\\transforms-3\\38344280fe9342d918737701bd2e1811\\transformed\\jetified-autofill-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,19,20,27,32,37,44,53",
@@ -97,25 +114,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\bhanu\\AwesomeProject\\node_modules\\react-native-date-picker\\android\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,16,19,27,30,54",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "100,158,215,270,327,371,434,483,542,598,643,700,823,909,1276,1407,2235",
-                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,15,18,26,29,53,57",
-                        "endColumns": "57,56,54,56,43,62,48,58,55,44,56,12,12,12,12,24,24",
-                        "endOffsets": "153,210,265,322,366,429,478,537,593,638,695,818,904,1271,1402,2230,2361"
-                    },
-                    "to": {
-                        "startLines": "1884,1926,1927,1937,1938,1984,1985,1986,2055,2084,2087,5475,5478,9173,9181,11726,12605",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "125822,131035,131092,132026,132083,138064,138127,138176,148715,152433,152829,388519,388642,638226,638593,747635,779685",
-                        "endLines": "1884,1926,1927,1937,1938,1984,1985,1986,2055,2084,2087,5477,5480,9180,9183,11749,12608",
-                        "endColumns": "57,56,54,56,43,62,48,58,55,44,56,12,12,12,12,24,24",
-                        "endOffsets": "125875,131087,131142,132078,132122,138122,138171,138230,148766,152473,152881,388637,388723,638588,638719,748458,779811"
-                    }
-                },
-                {
                     "source": "C:\\Users\\bhanu\\.gradle\\caches\\transforms-3\\933cca3d682df19ab6b85bbd4417e041\\transformed\\jetified-viewpager2-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -166,44 +164,6 @@
                         "startOffsets": "114819,114888",
                         "endColumns": "68,56",
                         "endOffsets": "114883,114940"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bhanu\\AwesomeProject\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "267"
-                    },
-                    "to": {
-                        "startLines": "2117",
-                        "startColumns": "4",
-                        "startOffsets": "154924",
-                        "endLines": "2120",
-                        "endColumns": "12",
-                        "endOffsets": "155102"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bhanu\\AwesomeProject\\node_modules\\@react-native-community\\datetimepicker\\android\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,6,9,10,13",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "100,181,389,572,653,861",
-                        "endLines": "2,5,8,9,12,15",
-                        "endColumns": "80,12,12,80,12,12",
-                        "endOffsets": "176,384,567,648,856,1039"
-                    },
-                    "to": {
-                        "startLines": "5941,5942,5945,5948,5949,5952",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "419596,419677,419885,420068,420149,420357",
-                        "endLines": "5941,5944,5947,5948,5951,5954",
-                        "endColumns": "80,12,12,80,12,12",
-                        "endOffsets": "419672,419880,420063,420144,420352,420535"
                     }
                 },
                 {
@@ -281,20 +241,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\bhanu\\AwesomeProject\\android\\app\\build\\generated\\res\\resValues\\debug\\values\\gradleResValues.xml",
+                    "source": "C:\\Users\\bhanu\\OneDrive\\Desktop\\Journal\\journal_App\\node_modules\\react-native-date-picker\\android\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
                     "from": {
-                        "startLines": "6,8",
-                        "startColumns": "4,4",
-                        "startOffsets": "159,265",
-                        "endColumns": "63,68",
-                        "endOffsets": "218,329"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,16,19,27,30,54",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "100,158,215,270,327,371,434,483,542,598,643,700,823,909,1276,1407,2235",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,15,18,26,29,53,57",
+                        "endColumns": "57,56,54,56,43,62,48,58,55,44,56,12,12,12,12,24,24",
+                        "endOffsets": "153,210,265,322,366,429,478,537,593,638,695,818,904,1271,1402,2230,2361"
                     },
                     "to": {
-                        "startLines": "1848,1849",
-                        "startColumns": "4,4",
-                        "startOffsets": "123259,123323",
-                        "endColumns": "63,68",
-                        "endOffsets": "123318,123387"
+                        "startLines": "1884,1926,1927,1937,1938,1984,1985,1986,2055,2084,2087,5475,5478,9173,9181,11726,12605",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "125822,131035,131092,132026,132083,138064,138127,138176,148715,152433,152829,388519,388642,638226,638593,747635,779685",
+                        "endLines": "1884,1926,1927,1937,1938,1984,1985,1986,2055,2084,2087,5477,5480,9180,9183,11749,12608",
+                        "endColumns": "57,56,54,56,43,62,48,58,55,44,56,12,12,12,12,24,24",
+                        "endOffsets": "125875,131087,131142,132078,132122,138122,138171,138230,148766,152473,152881,388637,388723,638588,638719,748458,779811"
                     }
                 },
                 {
@@ -372,6 +334,44 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\bhanu\\OneDrive\\Desktop\\Journal\\journal_App\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "267"
+                    },
+                    "to": {
+                        "startLines": "2117",
+                        "startColumns": "4",
+                        "startOffsets": "154924",
+                        "endLines": "2120",
+                        "endColumns": "12",
+                        "endOffsets": "155102"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bhanu\\OneDrive\\Desktop\\Journal\\journal_App\\node_modules\\@react-native-community\\datetimepicker\\android\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,6,9,10,13",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "100,181,389,572,653,861",
+                        "endLines": "2,5,8,9,12,15",
+                        "endColumns": "80,12,12,80,12,12",
+                        "endOffsets": "176,384,567,648,856,1039"
+                    },
+                    "to": {
+                        "startLines": "5941,5942,5945,5948,5949,5952",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "419596,419677,419885,420068,420149,420357",
+                        "endLines": "5941,5944,5947,5948,5951,5954",
+                        "endColumns": "80,12,12,80,12,12",
+                        "endOffsets": "419672,419880,420063,420144,420352,420535"
+                    }
+                },
+                {
                     "source": "C:\\Users\\bhanu\\.gradle\\caches\\transforms-3\\13659b94c66de92d98d7f8af61234b95\\transformed\\core-1.9.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,89,90,94,95,96,97,103,113,146,167,200",
@@ -388,6 +388,23 @@
                         "endLines": "417,552,553,854,855,963,964,965,966,967,968,969,1629,1630,1631,1632,1633,1634,1635,1636,1637,1638,1639,1640,1641,1642,1643,1654,1655,1656,1660,1661,1662,1663,1664,1665,1666,1667,1668,1669,1670,1671,1672,1673,1674,1675,1676,1677,1678,1679,1680,1681,1682,1683,1684,1685,1686,1687,1688,1689,1690,1691,1712,1713,1744,1745,1746,1747,1748,1749,1750,1751,1752,1753,1754,1755,1756,1757,1758,1766,1851,2081,6011,6015,6016,6020,6021,7220,7221,10160,10510,10771,10792,10974,10980",
                         "endColumns": "59,71,87,68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,64,58,58,59,59,59,59,59,59,59,59,59,59,58,59,59,59,59,59,59,59,59,59,59,58,59,59,58,58,58,58,58,58,34,34,54,62,54,57,57,60,62,56,50,49,60,56,65,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24,24",
                         "endOffsets": "21620,28595,28683,51164,51227,58510,58578,58650,58720,58781,58855,58928,110325,110386,110448,110512,110574,110635,110703,110803,110863,110929,111002,111071,111128,111180,111242,112044,112120,112185,112408,112467,112527,112587,112647,112707,112767,112827,112887,112947,113007,113067,113126,113186,113246,113306,113366,113426,113486,113546,113606,113666,113726,113785,113845,113905,113964,114023,114082,114141,114200,114259,115310,115345,116963,117026,117081,117139,117197,117258,117321,117378,117429,117479,117540,117597,117663,117697,117732,118114,123514,152146,426366,426567,426677,426878,427007,512085,512152,672672,684390,708055,708736,713813,713980"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bhanu\\OneDrive\\Desktop\\Journal\\journal_App\\android\\app\\build\\generated\\res\\resValues\\debug\\values\\gradleResValues.xml",
+                    "from": {
+                        "startLines": "6,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "159,265",
+                        "endColumns": "63,68",
+                        "endOffsets": "218,329"
+                    },
+                    "to": {
+                        "startLines": "1848,1849",
+                        "startColumns": "4,4",
+                        "startOffsets": "123259,123323",
+                        "endColumns": "63,68",
+                        "endOffsets": "123318,123387"
                     }
                 },
                 {
@@ -443,23 +460,6 @@
                         "startOffsets": "118809",
                         "endColumns": "49",
                         "endOffsets": "118854"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bhanu\\AwesomeProject\\android\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "51",
-                        "endOffsets": "63"
-                    },
-                    "to": {
-                        "startLines": "1886",
-                        "startColumns": "4",
-                        "startOffsets": "125963",
-                        "endColumns": "51",
-                        "endOffsets": "126010"
                     }
                 },
                 {

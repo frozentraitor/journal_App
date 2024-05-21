@@ -86,7 +86,6 @@ const App = () => {
                 component={MainNav} 
                 options={{ 
                     headerShown: false,
-                    headerLeft:  () => {return(<Voided/>)}
                      }}/>
                 </Stack.Navigator>
             ) : (

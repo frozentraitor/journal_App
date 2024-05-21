@@ -4,23 +4,6 @@
             "outputFile": "com.awesomeproject.app-mergeDebugResources-34:/values-fi/values-fi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bhanu\\AwesomeProject\\node_modules\\react-native-date-picker\\android\\build\\intermediates\\packaged_res\\debug\\values-fi\\values-fi.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,178,236,295,339,404,453,516,572,618",
-                        "endColumns": "58,63,57,58,43,64,48,62,55,45,58",
-                        "endOffsets": "109,173,231,290,334,399,448,511,567,613,672"
-                    },
-                    "to": {
-                        "startLines": "34,46,47,51,52,74,75,76,113,131,134",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3059,4094,4158,4446,4505,6082,6147,6196,9122,10570,10766",
-                        "endColumns": "58,63,57,58,43,64,48,62,55,45,58",
-                        "endOffsets": "3113,4153,4211,4500,4544,6142,6191,6254,9173,10611,10820"
-                    }
-                },
-                {
                     "source": "C:\\Users\\bhanu\\.gradle\\caches\\transforms-3\\13659b94c66de92d98d7f8af61234b95\\transformed\\core-1.9.0\\res\\values-fi\\values-fi.xml",
                     "from": {
                         "startLines": "2",
@@ -69,6 +52,23 @@
                         "startOffsets": "318,426,526,635,721,826,944,1030,1109,1200,1293,1388,1482,1576,1669,1765,1864,1955,2049,2129,2236,2337,2434,2540,2640,2738,2888,9584",
                         "endColumns": "107,99,108,85,104,117,85,78,90,92,94,93,93,92,95,98,90,93,79,106,100,96,105,99,97,149,99,80",
                         "endOffsets": "421,521,630,716,821,939,1025,1104,1195,1288,1383,1477,1571,1664,1760,1859,1950,2044,2124,2231,2332,2429,2535,2635,2733,2883,2983,9660"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bhanu\\OneDrive\\Desktop\\Journal\\journal_App\\node_modules\\react-native-date-picker\\android\\build\\intermediates\\packaged_res\\debug\\values-fi\\values-fi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,178,236,295,339,404,453,516,572,618",
+                        "endColumns": "58,63,57,58,43,64,48,62,55,45,58",
+                        "endOffsets": "109,173,231,290,334,399,448,511,567,613,672"
+                    },
+                    "to": {
+                        "startLines": "34,46,47,51,52,74,75,76,113,131,134",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3059,4094,4158,4446,4505,6082,6147,6196,9122,10570,10766",
+                        "endColumns": "58,63,57,58,43,64,48,62,55,45,58",
+                        "endOffsets": "3113,4153,4211,4500,4544,6142,6191,6254,9173,10611,10820"
                     }
                 },
                 {
